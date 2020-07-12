@@ -1,16 +1,13 @@
-<<<<<<< HEAD
-=======
 //请求路径
-var reqUrl = "http://dentist-clinic.com:8088/php/Case.php";
-var docReqUrl = "http://dentist-clinic.com:8088/php/Dentist.php";
+var reqUrl = "http://dentist-clinic.com:80/php/Case.php";
+var docReqUrl = "http://dentist-clinic.com:80/php/Dentist.php";
 
 //跳转路径
-var jumpModify = "http://dentist-clinic.com:8080/web/caseModify.html?";
-var jumpDetail = "http://dentist-clinic.com:8080/web/caseDetails.html?";
-var jumpIndex = "http://dentist-clinic.com:8080/web/index.html";
+var jumpModify = "http://dentist-clinic.com:80/web/caseModify.html?";
+var jumpDetail = "http://dentist-clinic.com:80/web/caseDetails.html?";
+var jumpIndex = "http://dentist-clinic.com:80/web/index.html";
 
 // 修改资料切换
->>>>>>> 14ca93261f7fedb22d2b746519b02044b6aadaf3
 $(document).ready(function(){
     $("#modifyData").click(function(){ 
         $("#personDetailData").toggleClass("switch",true); 
@@ -24,11 +21,8 @@ $(document).ready(function(){
         $("#personModifyData").toggleClass("switch",true); 
     }); 
 })
-<<<<<<< HEAD
-=======
 
 // 覆盖头像
->>>>>>> 14ca93261f7fedb22d2b746519b02044b6aadaf3
 var upload = function (c, d) {
     "use strict";
     var $c = document.querySelector(c),
@@ -41,10 +35,6 @@ var upload = function (c, d) {
     };
 };
 
-<<<<<<< HEAD
-
-
-=======
 // 返回首页
 function backIndex() {
     if (confirm("是否要退出登录，并返回首页？")) {
@@ -291,4 +281,3 @@ function removeCase(nowTr) {
         $(nowTr).closest('tr').remove();
     }
 }
->>>>>>> 14ca93261f7fedb22d2b746519b02044b6aadaf3
